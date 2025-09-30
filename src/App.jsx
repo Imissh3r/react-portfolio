@@ -5,6 +5,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import ScrollToHero from './components/ScrollToHero';
 import './index.css'
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Projects />
       <Contact />
       <ScrollToHero />
+      <Analytics />
     </>
   );
 }
